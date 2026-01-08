@@ -137,7 +137,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_8v0v1c8", "template_1ivvlkc", form.current, {
+      .sendForm("service_plhn1am", "template_1ivvlkc", form.current, {
         publicKey: "tG6Yt8aVNMZ9MiQAG",
       })
       .then(
